@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Markdown on A Hugo website</title>
+    <link>https://hiki-t.github.io/rblog-example/tags/r-markdown/</link>
+    <description>Recent content in R Markdown on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hiki-t.github.io/rblog-example/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rmd test 01</title>
+      <link>https://hiki-t.github.io/rblog-example/2022/08/13/rmd-test-01/</link>
+      <pubDate>Sat, 13 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiki-t.github.io/rblog-example/2022/08/13/rmd-test-01/</guid>
+      <description>R code test test codes of ggplot and dplyr packages.
+so far, they are working.
+library(ggplot2) library(dplyr) ## ## Attaching package: &amp;#39;dplyr&amp;#39; ## The following objects are masked from &amp;#39;package:stats&amp;#39;: ## ## filter, lag ## The following objects are masked from &amp;#39;package:base&amp;#39;: ## ## intersect, setdiff, setequal, union sum &amp;lt;- Orange %&amp;gt;% group_by(Tree) %&amp;gt;% summarise( age_m = mean(age), circum_m = mean(circumference), n = n() ) print(sum) ## # A tibble: 5 × 4 ## Tree age_m circum_m n ## &amp;lt;ord&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;int&amp;gt; ## 1 3 922.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://hiki-t.github.io/rblog-example/2020/12/01/hello-r-markdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://hiki-t.github.io/rblog-example/2020/12/01/hello-r-markdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+  </channel>
+</rss>
