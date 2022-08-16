@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.101.0" />
+
+
+<title>Hello R Markdown by HT - rBlog &lt;-- HT &#43; blogdown</title>
+<meta property="og:title" content="Hello R Markdown by HT - rBlog &lt;-- HT &#43; blogdown">
+
+
+  <link href='https://hiki-t.github.io/rblog-example/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/rblog-example/css/fonts.css" media="all">
+<link rel="stylesheet" href="/rblog-example/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/rblog-example/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/rblog-example/about/">About</a></li>
+    
+    <li><a href="https://github.com/hiki-t">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/htsujimura">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Hello R Markdown by HT</h1>
+
+    
+    <span class="article-date">2022-08-16</span>
+    
+
+    <div class="article-content">
+      
+
+
+<p>Hello</p>
+<p>Test</p>
+<p>–</p>
+<hr />
+<hr />
+<p>image: <img src="https://myoctocat.com/assets/images/base-octocat.svg" /></p>
+<ul>
+<li>unordered list</li>
+<li>item 2</li>
+<li>sub-item 1</li>
+<li>sub-item 2</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>ordered list</li>
+<li>item 2</li>
+</ol>
+<ul>
+<li>sub-item 1</li>
+<li>sub-item 2</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>ordered list</li>
+<li>sub-item?</li>
+<li>sub-item2?</li>
+</ol>
+<hr />
+<p>Embed Code</p>
+<p>Two plus two
+equals 4.</p>
+<p>Here’s some code 1</p>
+<pre class="r"><code>dim(iris)</code></pre>
+<pre><code>## [1] 150   5</code></pre>
+<p>Here’s some code 2</p>
+<pre class="r"><code>dim(iris)</code></pre>
+<p>Here’s some code 3</p>
+<pre><code>## [1] 150   5</code></pre>
+<hr />
+<p>Test gif image</p>
+<p><img src="https://64.media.tumblr.com/e00b59b7e6bcdbbc8ba447bc2eb48842/9414c20b051b90b5-55/s500x750/6ba2084d4ff126c3c96aacce7c86058622d4630b.gifv" /></p>
+<p>test 2</p>
+<p><img src="https://media.giphy.com/media/lKXEBR8m1jWso/giphy.gif" /></p>
+<hr />
+<pre class="r"><code>for (i in 1:10) plot(runif(100), ylim = c(0, 1)) # for example</code></pre>
+<p><img src="https://hiki-t.github.io/rblog-example/2022/08/16/hello-r-markdown-by-ht/index_files/figure-html/chunk-label.gif" width="672" /></p>
+<pre class="r"><code>library(purrr)
+library(ggplot2)
+library(repurrrsive) # for the example data below
+
+gap_split_small &lt;- gap_split[1:10]
+countries &lt;- names(gap_split_small)
+# For all countries
+plots &lt;- map2(gap_split_small, countries, 
+  ~ ggplot(.x, aes(year, lifeExp)) + 
+      geom_line() +
+      labs(title = .y) +
+      coord_cartesian(ylim = c(0, 100))) </code></pre>
+<pre class="r"><code># Display all plots
+walk(plots, print)</code></pre>
+<p><img src="https://hiki-t.github.io/rblog-example/2022/08/16/hello-r-markdown-by-ht/index_files/figure-html/gapgif.gif" width="672" /></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/rblog-example/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/rblog-example/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

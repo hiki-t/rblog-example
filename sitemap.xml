@@ -2,28 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hiki-t.github.io/rblog-example/</loc>
-    <lastmod>2022-08-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hiki-t.github.io/rblog-example/categories/</loc>
-    <lastmod>2022-08-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hiki-t.github.io/rblog-example/2022/08/16/hello-r-markdown-by-ht/</loc>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hiki-t.github.io/rblog-example/post/</loc>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hiki-t.github.io/rblog-example/categories/r/</loc>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hiki-t.github.io/rblog-example/tags/r-markdown/</loc>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hiki-t.github.io/rblog-example/</loc>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hiki-t.github.io/rblog-example/tags/</loc>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hiki-t.github.io/rblog-example/tags/plot/</loc>
     <lastmod>2022-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hiki-t.github.io/rblog-example/post/</loc>
-    <lastmod>2022-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hiki-t.github.io/rblog-example/categories/r/</loc>
-    <lastmod>2022-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hiki-t.github.io/rblog-example/tags/r-markdown/</loc>
-    <lastmod>2022-08-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hiki-t.github.io/rblog-example/2022/08/13/rmd-test-01/</loc>
-    <lastmod>2022-08-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hiki-t.github.io/rblog-example/tags/</loc>
     <lastmod>2022-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hiki-t.github.io/rblog-example/2020/12/01/hello-r-markdown/</loc>
