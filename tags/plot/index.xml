@@ -6,7 +6,17 @@
     <description>Recent content in plot on rBlog &lt;-- HT &#43; blogdown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hiki-t.github.io/rblog-example/tags/plot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hiki-t.github.io/rblog-example/tags/plot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interactive plots</title>
+      <link>https://hiki-t.github.io/rblog-example/2022/08/16/interactive-plots/</link>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiki-t.github.io/rblog-example/2022/08/16/interactive-plots/</guid>
+      <description>Example 1 data organisation and presettting
+library(dplyr) ## ## Attaching package: &amp;#39;dplyr&amp;#39; ## The following objects are masked from &amp;#39;package:stats&amp;#39;: ## ## filter, lag ## The following objects are masked from &amp;#39;package:base&amp;#39;: ## ## intersect, setdiff, setequal, union library(tidyr) library(DT) library(ggplot2) library(plotly) ## ## Attaching package: &amp;#39;plotly&amp;#39; ## The following object is masked from &amp;#39;package:ggplot2&amp;#39;: ## ## last_plot ## The following object is masked from &amp;#39;package:stats&amp;#39;: ## ## filter ## The following object is masked from &amp;#39;package:graphics&amp;#39;: ## ## layout anscombe_tidy &amp;lt;- anscombe %&amp;gt;% mutate(observation = seq_along(x1)) %&amp;gt;% gather(key, value, -observation) %&amp;gt;% separate(key, c(&amp;quot;variable&amp;quot;, &amp;quot;set&amp;quot;), 1, convert = TRUE) %&amp;gt;% mutate(set = as.</description>
+    </item>
+    
     <item>
       <title>Rmd test 01</title>
       <link>https://hiki-t.github.io/rblog-example/2022/08/13/rmd-test-01/</link>
